@@ -2,6 +2,10 @@
 
 A C# library that fully implements the OneBot 11 protocol, supporting WebSocket communication with OneBot implementations.
 
+[![NuGet](https://img.shields.io/nuget/v/OneBotLib.svg)](https://www.nuget.org/packages/OneBotLib/)
+[![GitHub](https://img.shields.io/badge/GitHub-XSY--HYH/OneBotLib-blue)](https://github.com/XSY-HYH/OneBotLib)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 ## Features
 
 - Full OneBot 11 protocol implementation
@@ -14,7 +18,17 @@ A C# library that fully implements the OneBot 11 protocol, supporting WebSocket 
 
 ## Installation
 
-Add the OneBotLib project to your solution, or compile it as a DLL and reference it.
+### NuGet
+
+```bash
+dotnet add package OneBotLib
+```
+
+Or via Package Manager:
+
+```powershell
+Install-Package OneBotLib
+```
 
 ## Quick Start
 

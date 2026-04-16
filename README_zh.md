@@ -2,6 +2,10 @@
 
 一个完整实现 OneBot 11 协议的 C# 类库，支持通过 WebSocket 与 OneBot 实现进行通信。
 
+[![NuGet](https://img.shields.io/nuget/v/OneBotLib.svg)](https://www.nuget.org/packages/OneBotLib/)
+[![GitHub](https://img.shields.io/badge/GitHub-XSY--HYH/OneBotLib-blue)](https://github.com/XSY-HYH/OneBotLib)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 ## 特性
 
 - 完整实现 OneBot 11 协议
@@ -14,7 +18,17 @@
 
 ## 安装
 
-将 OneBotLib 项目添加到你的解决方案中，或编译为 DLL 后引用。
+### NuGet
+
+```bash
+dotnet add package OneBotLib
+```
+
+或者使用包管理器：
+
+```powershell
+Install-Package OneBotLib
+```
 
 ## 快速开始
 
