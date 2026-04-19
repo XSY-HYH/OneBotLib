@@ -7,7 +7,7 @@
     
     <!-- NuGet Package Info -->
     <PackageId>OneBotLib</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.4</Version>
     <Authors>XSY-HYH</Authors>
     <Description>A C# library that fully implements the OneBot 11 protocol, supporting WebSocket communication with OneBot implementations.</Description>
     <PackageTags>onebot;onebot11;qq;bot;websocket;chatbot</PackageTags>

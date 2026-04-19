@@ -97,12 +97,13 @@ namespace OneBotLib
             return result.Success ? ApiResult.Ok() : ApiResult.Fail(result.ErrorMessage!, result.StackTrace);
         }
 
-        public async Task<ApiResult> SetMsgEmojiLikeAsync(long messageId, string emojiId)
+        public async Task<ApiResult> SetMsgEmojiLikeAsync(long messageId, string emojiId, bool set = true)
         {
             var parameters = new Dictionary<string, object>
             {
                 { "message_id", messageId },
-                { "emoji_id", emojiId }
+                { "emoji_id", emojiId },
+                { "set", set }
             };
             var result = await SendApiAsync("set_msg_emoji_like", parameters);
             return result.Success ? ApiResult.Ok() : ApiResult.Fail(result.ErrorMessage!, result.StackTrace);
